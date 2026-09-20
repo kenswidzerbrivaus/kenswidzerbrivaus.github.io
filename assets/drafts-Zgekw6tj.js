@@ -1,1 +1,0 @@
-var e=`sepho.draft.`;function t(t){try{let n=localStorage.getItem(e+t);return n?JSON.parse(n):null}catch{return null}}function n(t,n){try{localStorage.setItem(e+t,JSON.stringify(n))}catch{}}function r(t){try{localStorage.removeItem(e+t)}catch{}}export{t as n,n as r,r as t};
